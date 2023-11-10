@@ -4,7 +4,7 @@ export default class Slide {
     this.wrapper = document.querySelector(wrapper);
   }
 
-  onStart(event) {
+  onStartt(event) {
     event.preventDefault();
     console.log(this);
   }
@@ -14,7 +14,7 @@ export default class Slide {
   }
 
   bindEvents() {
-    this.onStart = this.onStart.bind(this);
+    this.onStart = this.onStartt.bind(this);
   }
 
   init() {
